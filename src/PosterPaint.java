@@ -1,9 +1,12 @@
+import java.util.Scanner;
+
 public class PosterPaint {
     public static void main(String[] args) {
-        int n = 3;
-        int h = 2;
-        int w = 2;
-        int sum = n * (2 * 2 * 100);
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        int h = scanner.nextInt();
+        int w = scanner.nextInt();
+        int sum = n * (h * w * 100);
         System.out.println(sum);
     }
 }

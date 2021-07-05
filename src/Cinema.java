@@ -9,8 +9,7 @@ public class Cinema {
             System.out.println("Введите сумму на карте Макса (от 0 до 6000):");
             int m = scanner.nextInt(); //Количество денег у Макса
             if (0 <= m & m <= 6000) {
-                int c = 650; //Стоимость интернета
-                int sum = n * 250 + c; //Необходимое количество денег
+                int sum = n * 250 + 650; //Необходимое количество денег
                 if (sum <= m) {
                     System.out.println("YES");
                 } else System.out.println("NO");} else System.out.println("Сумма на карте Макса должна быть от 0 до 6000");
